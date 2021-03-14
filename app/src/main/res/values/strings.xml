@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">BranchChat</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="invalid_login">Invalid login</string>
+    <string name="error_loading_chats_message">Error loading chats</string>
+    <string name="retry">Retry</string>
+    <string name="loading">Loading…</string>
+    <string name="chats">Chats</string>
+    <string name="from_agent_x">From Agent %1$d</string>
+    <string name="from_user_x">From User %1$d</string>
+    <string name="messages_thread_x">Message thread %1$d</string>
+    <string name="send">Send</string>
+    <string name="error_sending_message">Error sending message</string>
+    <string name="type_message">Type message</string>
+</resources>
