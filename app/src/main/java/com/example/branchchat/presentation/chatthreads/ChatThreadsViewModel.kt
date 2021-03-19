@@ -28,7 +28,6 @@ class ChatThreadsViewModel @ViewModelInject constructor(
         executeRequest(
             request = {
                 val chats = chatRepository.chats()
-                Log.d("ChatThreadsViewModel", "CHats: $chats")
                 updateState(
                     currentViewState().copy(
                         isLoading = false,

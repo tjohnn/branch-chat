@@ -34,6 +34,7 @@ class MessagesViewModel @ViewModelInject constructor(
                 )
             },
             onError = {
+                println("Error happened")
                 it.printStackTrace()
                 sendViewEvent(MessagesViewEvent.DisplayLoadErrorSnackBar)
                 updateState(
